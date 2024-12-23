@@ -16,13 +16,12 @@ nltk.download('stopwords')
 stop_words_ru = set(stopwords.words('russian'))  
 stop_words_en = set(stopwords.words('english'))  
 
-# Константы VK API
-VK_TOKEN = 'your token (get it when creating the VK app)/// ваш токен (поличите при создании приложения VK) '
+VK_TOKEN = 'your token (get it when creating the VK app)/// ваш токен (получите при создании приложения VK) '
 VK_VERSION = '5.199'
 
 # Константы Reddit API
-REDDIT_CLIENT_ID = 'поличите при создании приложения Reddit ///check out when creating a reddit app'
-REDDIT_CLIENT_SECRET = 'поличите при создании приложения Reddit ///check out when creating a reddit app'
+REDDIT_CLIENT_ID = 'получите при создании приложения Reddit ///check out when creating a reddit app'
+REDDIT_CLIENT_SECRET = 'получите при создании приложения Reddit ///check out when creating a reddit app'
 REDDIT_USER_AGENT = 'RedditParser by /u/YOUR NAME'
 
 def fetch_vk_posts(token, version, domain, count):
@@ -156,7 +155,7 @@ def start_parsing():
 root = Tk()
 root.title("Парсер социальных сетей")
 
-Label(root, text="Введите группы VK (через запятую):").pack(pady=5)
+Label(root, text="Введите короткое имя группы VK (через запятую):").pack(pady=5)
 vk_groups_entry = Entry(root, width=50)
 vk_groups_entry.pack(pady=5)
 
