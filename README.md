@@ -1,5 +1,4 @@
 # Trend_analysis_via_social_media_parsing
-<<<<<<< HEAD
 
 Важно: для парсинга группы VK нужно вводить короткое имя: его можно найти в "Подробная информация", зайдя на страницу сообщества.  
 Выглядеть оно будет прмерно так @example. Нужно только example!
@@ -7,17 +6,15 @@
 # Константы VK API
 VK_TOKEN = 'your token (get it when creating the VK app)/// ваш токен (поличите при создании приложения VK) '
 VK_VERSION = '5.199'
-=======
+
 # Константы VK API
 VK_TOKEN = 'your token (get it when creating the VK app)/// ваш токен (поличите при создании приложения VK) '
 VK_VERSION = '5.199'
 
->>>>>>> 269d50f62af91b01c5315b2c73dc7ddd664d0828
 # Константы Reddit API
 REDDIT_CLIENT_ID = 'поличите при создании приложения Reddit ///check out when creating a reddit app'
 REDDIT_CLIENT_SECRET = 'поличите при создании приложения Reddit ///check out when creating a reddit app'
 REDDIT_USER_AGENT = 'RedditParser by /u/YOUR NAME'
-<<<<<<< HEAD
 
 1. Получение токена для VK
 Войдите в свой аккаунт VK.
@@ -43,5 +40,4 @@ REDDIT_USER_AGENT = 'RedditParser by /u/YOUR NAME'
 Скопируйте Client ID (это строка под заголовком "personal use script").
 Скопируйте Secret Key.
 Укажите произвольное значение для User-Agent (например, RedditParser by /u/YOUR_USERNAME).
-=======
->>>>>>> 269d50f62af91b01c5315b2c73dc7ddd664d0828
+
